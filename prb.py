@@ -2,6 +2,9 @@ import configparser
 import typing
 from collections import OrderedDict
 from pathlib import Path
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KFmts/prb.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 """This module parses .prb files used in "Delphi for Fun" [Logic Problem Solver](http://delphiforfun.org/Programs/logic_problem_solver.htm) by Gary Darby.
 These are ini files containing semi-formal description of some class of school-level logical problems that can be solved by using tables.
